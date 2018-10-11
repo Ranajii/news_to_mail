@@ -41,7 +41,7 @@ if test == YES:
     from email.mime.base import MIMEBase 
     from email import encoders 
        
-    fromaddr = "vk23208@gmail.com"
+    fromaddr = "Your email ID "
     toaddr = str(b)
        
     # instance of MIMEMultipart 
@@ -87,7 +87,7 @@ if test == YES:
     s.starttls() 
       
     # Authentication 
-    s.login(fromaddr, "life@12345") 
+    s.login(fromaddr, "password") 
       
     # Converts the Multipart msg into a string 
     text = msg.as_string() 
